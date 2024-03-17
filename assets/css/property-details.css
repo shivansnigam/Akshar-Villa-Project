@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+a {
+    text-decoration: none;
+}
+
+/* first nav bar start*/
+.top-nav {
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 20px 0px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul.social-icons {
+    text-align: right;
+}
+
+ul.social-icons li {
+    margin-left: 9px;
+}
+
+ul.info li {
+    font-size: 15px;
+    color: gray;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+ul.social-icons li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 29px;
+    color: #fff;
+    font-size: 15px;
+    background-color: gray;
+    border-radius: 50%;
+    text-align: center;
+}
+
+ul.social-icons li a:hover {
+    background-color: #f35525;
+}
+
+ul.info li i {
+    font-size: 20px;
+    color: #f35525;
+    margin-right: 8px;
+}
+
+@media (max-width: 767px) {
+    .top-nav {
+        display: none;
+    }
+}
+
+/* first nav bar start end */
+
+/* 2nd nav bar start */
+.navbar-item {
+    padding-left: 50px;
+}
+
+.home-color {
+    color: #f35525;
+}
+
+.calender-style {
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    border-radius: 25px;
+    padding-left: 0;
+    text-align: center;
+    padding: 10px 10px 10px;
+}
+
+.calender-style i {
+    background-color: #f35525;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-left: -15px;
+}
+
+.contact-form {
+    margin-top: 5px;
+
+}
+
+
+.contact-details {
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+    padding: 30px 27px;
+
+}
+
+.contact-details label {
+    margin-bottom: 15px;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 150px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding: 15px 15px;
+
+}
+
+.submit-button {
+    background-color: #1e1e1e;
+    color: white;
+    height: 40px;
+    border-radius: 27px;
+    padding: 0px 23px;
+}
+
+@media (max-width: 767px) {
+    .col-lg-5 {
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+}
+
+/* 2nd nav bar end */
+/* banner section start */
+.contact {
+    background-image: url(../images/page-heading-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-heading {
+    padding-top: 120px;
+}
+
+.contact-image {
+    z-index: -1;
+}
+
+.carousel-inner::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1100px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+/* banner section end  */
+
+/* single property details sections start */
+
+.villa {
+    background-color: #fbd9cf;
+    color: #1e1e1e;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 27px;
+    padding: 5px 12px;
+}
+
+.featured-heading {
+    color: #f35525;
+}
+
+.property-head {
+    margin-top: 80px;
+}
+
+.right-section ul li h3 p {
+    font-weight: 500;
+    font-size: 15px;
+    color: grey;
+    padding: 5px;
+}
+
+.right-section ul li {
+    display: block;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.right-section ul li img {
+    float: left;
+    margin-right: 26px;
+}
+
+.right-section {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #property-top {
+        margin-top: 42px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .right-section ul li {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .table-section {
+        margin-top: 50px;
+    }
+}
+
+/* single property details sections end */
+
+/* best deal section start */
+.deal-box {
+    margin-top: 100px;
+}
+
+.deal-caption p {
+    color: #f35525;
+}
+
+.deal-button {
+    margin-top: -50px;
+}
+
+.Appartment-button {
+    background-color: #f35525;
+}
+
+.floor-number {
+    margin-left: 70px;
+}
+
+.deal-block {
+    padding-top: 20px;
+    margin-top: -5px;
+}
+
+
+.nav-pills .nav-link {
+    margin: 0 8px;
+    background-color: #f35525;
+    color: white;/
+}
+
+.nav-pills .nav-link.active {
+    background-color: #f35525;
+    color: white;
+}
+
+.nav-pills .nav-link {
+    margin: 0 8px;
+}
+
+.deal-table {
+    margin-top: 80px;
+}
+
+#featured-headings {
+    color: #f35525;
+}
+
+@media screen and (max-width: 768px) {
+    #nav-penthouse-tab {
+        margin-top: 5px;
+    }
+}
+
+/* best deal section end */
+
+/* footer section start */
+.footer-caption {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+/* end with footer */
+@media (max-width: 767.98px) {
+    .right-section {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .Appartment-button {
+        margin-top: 48px;
+    }
+
+    .btn-dark.me-2 {
+        margin-top: 30px;
+    }
+
+    .btn-dark:last-child {
+        margin-top: 40px;
+    }
+
+    .d-flex.justify-content-end {
+        margin-top: 48px;
+    }
+}

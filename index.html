@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshar-Villa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Motion Spinner start -->
+    <div class="Wait-indicator">
+        <div class="Spinner-wheel">
+            <div class="Motion-indicator"></div>
+        </div>
+    </div>
+    <!-- Motion Spinner end -->
+
+    <!-- first-Nav-Bar start-->
+    <div class="top-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <ul class="info">
+                        <li><i class="fa fa-envelope"></i> info@AksharVilla.com</li>
+                        <li><i class="fa fa-map"></i> opp.Knowledge City,Vadodara,Gujarat 390019</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- first-nav-bar-end -->
+
+    <!-- 2nd nav bar start -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container px-4">
+            <a class class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="Nature Spa"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto flex px-5">
+                    <li class="navbar-item">
+                        <a class="nav-link" href="index.html" style="color: #f35525;">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link text-dark" href="property-listing.html">Properties</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link text-dark" href="property-details.html">Property Details</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link text-dark" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="calender-style " data-bs-toggle="modal" href="#scheduleModal">
+                            <i class="fa fa-calendar"></i>Schedule a visit
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" id="scheduleModal" tabindex="-1" aria-labelledby="scheduleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="scheduleModalLabel">Schedule a Visit</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="name">Full Name</label>
+                                <input type="name" name="name" id="name" class="form-control"
+                                    style="border-radius: 26px;" placeholder="Your Name">
+                            </div>
+                            <div class="col-12">
+                                <label for="email">Email Address</label>
+                                <input type="text" name="email" id="email" class="form-control"
+                                    style="border-radius: 26px;" placeholder="Your E-mail">
+                            </div>
+                            <div class="col-12">
+                                <label for="subject">Subject</label>
+                                <input type="subject" name="subject" id="subject" class="form-control"
+                                    style="border-radius: 26px;" placeholder="Subject">
+                            </div>
+                            <div class="col-12">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" class="form-control" style="border-radius: 26px;"
+                                    placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="submit-button" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- 2nd nav bar end-->
+    <!-- banner section start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class=" carousel-content carousel-1">
+                                <span class="location">Toronto, <b>Canada</b></span>
+                                <h2>Hurry!<br>Get the Best Villa for you</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class=" carousel-content carousel-2">
+                                <span class="location">Toronto, <b>Canada</b></span>
+                                <h2>Hurry!<br>Get the Best Villa for you</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="  carousel-content carousel-3">
+                                <span class="location">Toronto, <b>Canada</b></span>
+                                <h2>Hurry!<br>Get the Best Villa for you</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner section end -->
+    <!-- i featured section start -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4  col-sm-12">
+                <div class="left-section">
+                    <img src="assets/images/featured.jpg" class="left-image" alt="">
+                    <a><img src="assets/images/featured-icon.png" class="image-icon"></a>
+
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12">
+                <div class="featured-captions">
+                    <h6>| Featured</h6>
+                    <h2> <b>Best Appartment <br> & Sea view </b></h2>
+                </div>
+                <div class="accordion itemss" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" <p
+                                id="featured-headings">Best useful links ?</p>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ab esse rem debitis
+                                    doloremque itaque quod totam, est ea eaque ut ipsam, quasi velit at voluptatum
+                                    quibusdam neque, minus dolores?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How does this work ?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro est, officiis
+                                    quibusdam error animi tempora nemo necessitatibus. Perferendis maxime ut veniam
+                                    animi enim ex odio! Alias est suscipit reprehenderit rem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Why is Akshar Villa the best ?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae quam ad enim
+                                    totam deserunt quo dignissimos tempore corrupti minus veritatis ab, provident
+                                    non accusantium qui explicabo commodi, sed aut mollitia.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 mt-2 right-table">
+                <div class="right-section" style="padding-top: 15px; ">
+                    <ul>
+                        <li>
+                            <img src="assets/images/info-icon-01.png" class="image-icon">
+                            <h3>250 m2<br>
+                                <p>Total Flat Space</p>
+                            </h3>
+                        </li>
+                        <li>
+                            <img src="assets/images/info-icon-02.png" class="image-icon">
+                            <h3>Contract<br>
+                                <p>Contract Ready</p>
+                            </h3>
+                        </li>
+                        <li>
+                            <img src="assets/images/info-icon-03.png" class="image-icon">
+                            <h3>Payment<br>
+                                <p>Payment Process</p>
+                            </h3>
+                        </li>
+                        <li>
+                            <img src="assets/images/info-icon-04.png" class="image-icon">
+                            <h3>Safety<br>
+                                <p>24/7 Under Control</p>
+                            </h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- i featured section end -->
+    <!-- vedio view section start-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="vedio-caption">
+                <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sm-8 offset-sm-2">
+                    <div class="text-center">
+                        <h6>| Video View</h6>
+                        <h2 class="text-white"><b>Get Closer View & <br>Different Feeling</b></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="vedio-items">
+                <div class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-8 offset-sm-2">
+                    <div class="vedio-icon">
+                        <img src="assets/images/video-frame.jpg" alt="vedio-images">
+                        <a
+                            class="position-absolute top-50 start-50 translate-middle rounded-circle d-inline-block bg-white"><i
+                                class="fa fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container card-section mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card vedio-card mt-4">
+                    <div class="card-body py-0 mt">
+                        <span class="card-circle"></span>
+                        <h1 class="card-title">34</h1>
+                        <p class="card-text">Buildings<br>&nbsp;&nbsp;Finished Now</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card vedio-card mt-4">
+                    <div class="card-body py-0 ">
+                        <span class="card-circle"></span>
+                        <h1 class="card-title">12</h1>
+                        <p class="card-text">Years<br>Experience</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card vedio-card mt-4">
+                    <div class="card-body py-0">
+                        <span class="card-circle"></span>
+                        <h1 class="card-title">24</h1>
+                        <p class="card-text">Awwards<br>Won 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- vedio view section end -->
+
+    <!-- best deal section start -->
+    <div class="container deal-box ">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="deal-caption">
+                    <p>| Best Deal</p>
+                    <h1>Find Your Best Deal Right Now!</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 deal-table">
+                <div class="right-section deal-block ">
+                    <ul>
+                        <li>Total Flat Space <b class="ms-5">185 m2</b></li>
+                        <li>Floor number <b class="floor-number">26th</b></li>
+                        <li>Number of rooms <b class="ms-5">4</b></li>
+                        <li>Parking Available <b class="ms-5">Yes</b></li>
+                        <li>Payment Process <b class="ms-5 ">Bank</b></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class=" d-flex justify-content-end">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link active " id="nav-appertment-tab" data-bs-toggle="tab"
+                                    href="#nav-appertment">Appertment</a>
+
+                            </li>
+                            <li class="nav-item" id="nav-VillaHouse-tab"></li>
+                            <a class="nav-link bg-dark text-white" id="nav-villa-tab" data-bs-toggle="tab"
+                                href="#nav-villa">Villa
+                                House</a>
+                            </li>
+                            <li class="nav-item" id="nav-penthouse-tab">
+                                <a class="nav-link bg-dark text-white penthouse-tab" data-bs-toggle="tab"
+                                    href="#nav-penthouse">Penthouse</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 ">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade active show" id="nav-appertment" role="tabpanel"
+                                aria-labelledby="nav-appertment-tab">
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-6 col-sm-8">
+                                        <img src="assets/images/deal-01.jpg" class="img-fluid d-block mx-auto mt-5"
+                                            alt="">
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-8 mt-5">
+                                        <h5><b>Extra Info About property</b></h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi error
+                                            temporibus repudiandae vel architecto rerum cum, odit facilis ipsam quidem
+                                            neque recusandae provident mollitia dolor repellendus quis, assumenda, est
+                                            eligendi ducimus eaque. Ea ipsam tenetur veniam temporibus deleniti? Nam
+                                            quis perferendis adipisci eius neque repellendus ipsum, rem ducimus
+                                            distinctio saepe.
+                                        </p>
+                                        <a class="calender-style" class="text-dark" href="#"><i
+                                                class="fa fa-calendar"></i>Schedule a visit </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-villa" role="tabpanel" aria-labelledby="nav-villa-tab">
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-6 col-sm-8">
+                                        <img src="assets/images/deal-02.jpg" class="img-fluid d-block mx-auto mt-5"
+                                            alt="">
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-8 mt-5">
+                                        <h5><b>Extra Info About Villa</b></h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                                            similique officiis sunt eum expedita, eligendi a, ducimus perspiciatis
+                                            commodi voluptatum animi tempore dolor. At sed quasi aut tenetur optio atque
+                                            voluptatem magnam ipsam fugiat vitae fuga nostrum impedit itaque dicta nihil
+                                            earum omnis cupiditate explicabo laudantium harum, numquam corrupti tempore.
+                                        </p>
+                                        <a class="calender-style" class="text-dark" href="#"><i
+                                                class="fa fa-calendar"></i>Schedule a visit </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-penthouse" role="tabpanel"
+                                aria-labelledby="nav-penthouse-tab">
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-6 col-sm-8">
+                                        <img src="assets/images/deal-03.jpg" class="img-fluid d-block mx-auto mt-5"
+                                            alt="">
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-8 mt-5">
+                                        <h5><b>Extra Info About Penthouse</b></h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident porro
+                                            harum quod dolorum suscipit molestiae, ut, autem, laudantium pariatur quam
+                                            molestias beatae reiciendis iusto fuga veritatis placeat id. Doloremque
+                                            necessitatibus, eaque omnis praesentium eum minus in possimus tempore
+                                            eveniet harum magni expedita accusamus nulla quisquam quo deleniti
+                                            distinctio iste modi!</p>
+                                        <a class="calender-style" class="text-dark" href="#"><i
+                                                class="fa fa-calendar"></i>Schedule a visit </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best deal section end-->
+
+    <!-- property section start -->
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-lg-4 offset-lg-4 text-center">
+                <h6>| Properties</h6>
+                <h3><b>We Provide The Best Property You Like</b></h3>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card cards-animation property-card-animation">
+                    <img src="assets/images/property-01.jpg" alt="Luxury Villa" class="property-image">
+                    <span><b class="villa">Luxury Villa</b></span>
+                    <h3 class="price-info">$2.264.000</h3>
+                    <p class="property-captions"><b>18 New Street Miami, OR 97219</b></p>
+                    <p class="p mt-2">Bedrooms: <b>8</b>&nbsp;&nbsp; Bathrooms:&nbsp;<b>8</b>
+                    <p>Area:&nbsp;<b>545m2</b>&nbsp;&nbsp;Floor:&nbsp;<b>3</b>&nbsp;&nbsp;Parking:&nbsp;<b>6spots</b>
+                    </p>
+                    </p>
+                    <div class="container mt-5 text-center">
+                        <button type="button" class="custom-button">Schedule a visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card cards-animation property-card-animation">
+                    <img src="assets/images/property-02.jpg" alt="Luxury Villa" class="property-image">
+                    <span><b class="villa">Luxury Villa</b></span>
+                    <h3 class="price-info">$1.180.000</h3>
+                    <p class="property-captions"><b>54 Mid Street Florida, OR 27001</b></p>
+                    <p class="p mt-2">Bedrooms: <b>6</b>&nbsp;&nbsp; Bathrooms:&nbsp;<b>5</b>
+                    <p>Area:&nbsp;<b>450m2</b>&nbsp;&nbsp;Floor:&nbsp;<b>3</b>&nbsp;&nbsp;Parking:&nbsp;<b>8spots</b>
+                    </p>
+                    </p>
+                    <div class="container mt-5 text-center">
+                        <button type="button" class="custom-button">Schedule a visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card cards-animation property-card-animation">
+                    <img src="assets/images/property-03.jpg" alt="Luxury Villa" class="property-image">
+                    <span><b class="villa">Luxury Villa</b></span>
+                    <h3 class="price-info">$1.460.000</h3>
+                    <p class="property-captions"><b>26 Old Street Miami, OR 38540</b></p>
+                    <p class="p mt-2">Bedrooms: <b>5</b>&nbsp;&nbsp; Bathrooms:&nbsp;<b>4</b>
+                    <p>Area:&nbsp;<b>225m2</b>&nbsp;&nbsp;Floor:&nbsp;<b>3</b>&nbsp;&nbsp;Parking:&nbsp;<b>10spots</b>
+                    </p>
+                    </p>
+                    <div class="container mt-5 text-center">
+                        <button type="button" class="custom-button">Schedule a visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card cards-animation property-card-animation">
+                    <img src="assets/images/property-04.jpg" alt="Luxury Villa" class="property-image">
+                    <span><b class="villa">Apartment</b></span>
+                    <h3 class="price-info">$584.500</h3>
+                    <p class="property-captions"><b>12 New Street Miami, OR 12650</b></p>
+                    <p class="p mt-2">Bedrooms: <b>4</b>&nbsp;&nbsp; Bathrooms:&nbsp;<b>3</b>
+                    <p>Area:&nbsp;<b>125m2</b>&nbsp;&nbsp;Floor:&nbsp;<b>25th</b>&nbsp;&nbsp;Parking:&nbsp;<b>2cars</b>
+                    </p>
+                    </p>
+                    <div class="container mt-5 text-center">
+                        <button type="button" class="custom-button">Schedule a visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card cards-animation property-card-animation">
+                    <img src="assets/images/property-05.jpg" alt="Luxury Villa" class="property-image">
+                    <span><b class="villa">Penthouse</b></span>
+                    <h3 class="price-info">$925.600</h3>
+                    <p class="property-captions"><b>34 Beach Street Miami, OR 42680</b></p>
+                    <p class="p mt-2">Bedrooms: <b>4</b>&nbsp;&nbsp; Bathrooms:&nbsp;<b>4</b>
+                    <p>Area:&nbsp;<b>180m2</b>&nbsp;&nbsp;Floor:&nbsp;<b>38th</b>&nbsp;&nbsp;Parking:&nbsp;<b>2 cars</b>
+                    </p>
+                    </p>
+                    <div class="container mt-5 text-center">
+                        <button type="button" class="custom-button">Schedule a visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card cards-animation property-card-animation">
+                    <img src="assets/images/property-06.jpg" alt="Luxury Villa" class="property-image">
+                    <span><b class="villa">Modern Condo</b></span>
+                    <h3 class="price-info">$450.000</h3>
+                    <p class="property-captions"><b>22 New Street Portland, OR 16540</b></p>
+                    <p class="mt-2">Bedrooms: <b>3</b>&nbsp;&nbsp; Bathrooms:&nbsp;<b>2</b>
+                    <p>Area:&nbsp;<b>165m2</b>&nbsp;&nbsp;Floor:&nbsp;<b>26th</b>&nbsp;&nbsp;Parking:&nbsp;<b>3 cars</b>
+                    </p>
+                    </p>
+                    <div class="container mt-5 text-center">
+                        <button type="button" class="custom-button">Schedule a visit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- property section end -->
+
+    <!-- contact-us section start -->
+    <div class="container-fluid contact-us">
+        <div class="row">
+            <div class="contact-caption">
+                <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sm-8 offset-sm-2">
+                    <div class="text-center">
+                        <h6>| Contact Us</h6>
+                        <h2 class="text-white mt-4"><b>Get In Touch With<br>Our Agents</b></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container contact-map ">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="contact-map mt-4">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.617826739301!2d-74.00597338459488!3d40.71277557933008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a21fb011c85%3A0x37513b7f1821408b!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1633084786129!5m2!1sen!2sin"
+                        width="100%" height="490px" style="border:0; border-radius: 10px;"></iframe>
+                </div>
+                <div class="container mt-3">
+                    <div class="row">
+                        <div class="col-lg-6 mt-2">
+                            <div class="contact-card">
+                                <div class="py-0 d-flex align-items-center">
+                                    <div class="me-4">
+                                        <img src="assets/images/phone-icon.png">
+                                    </div>
+                                    <div>
+                                        <p><b>180-220-0202</b><br><span>Phone Number</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mt-2">
+                            <div class="contact-card">
+                                <div class="py-0 d-flex align-items-center">
+                                    <div class="me-4">
+                                        <img src="assets/images/email-icon.png">
+                                    </div>
+                                    <div>
+                                        <p><b>info@AksharVilla</b><br><span>Business Email</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 contact-form mt-4">
+                <form class="contact-details">
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="name">Full Name</label>
+                            <input type="name" name="name" id="name" class="form-control" style="border-radius: 26px;"
+                                placeholder="Your Name">
+                        </div>
+                        <div class="col-12">
+                            <label for="email">Email Address</label>
+                            <input type="text" name="email" id="email" class="form-control" style="border-radius: 26px;"
+                                placeholder="Your E-mail">
+
+                        </div>
+                        <div class="col-12">
+                            <label for="subject">Subject</label>
+                            <input type="subject" name="subject" id="subject" class="form-control"
+                                style="border-radius: 26px;" placeholder="Subject">
+                        </div>
+                        <div class="col-12">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" class="form-control" style="border-radius: 26px;"
+                                placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button class="submit-button" type="submit">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- contact-us section end -->
+
+    <!-- footer section start -->
+    <footer>
+        <div class="container footer-caption mt-5">
+            <p>Copyright © 2024 Akshar Villa.All rights reserved </p>
+        </div>
+        </div>
+    </footer>
+
+    <!-- footer section end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            setTimeout(function () {
+                document.body.classList.add("loaded");
+            }, 2000);
+        });
+    </script>
+</body>
+
+</html>
